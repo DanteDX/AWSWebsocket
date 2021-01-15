@@ -5,7 +5,7 @@ const tableName = process.env.tableName;
 
 exports.handler = async (event) =>{
     console.log('event',event);
-    const {connectionId:connectionID} = event.RequestContext;
+    const {connectionId:connectionID} = event.requestContext; // was typo here RequestContext
     const body = JSON.parse(event.body);
 
     try{

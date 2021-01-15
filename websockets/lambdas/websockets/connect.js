@@ -8,7 +8,7 @@ exports.handler = async(event) =>{
     const {connectionId:connectionID,domainName,stage} = event.requestContext;
     const data = {
         ID: connectionID,
-        date: Date.new(),
+        date: Date.now(), // was typo here Date.new()
         messages:[],
         domainName,
         stage
