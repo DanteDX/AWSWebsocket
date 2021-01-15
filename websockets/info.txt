@@ -1,0 +1,18 @@
+Serverless: Stack update finished...
+Service Information
+service: myserverlessproject2
+stage: dev
+region: us-east-1
+stack: myserverlessproject2-dev
+resources: 31
+api keys:
+  None
+endpoints:
+  wss://jxau7kgdy1.execute-api.us-east-1.amazonaws.com/dev
+functions:
+  websocket-connect: myserverlessproject2-dev-websocket-connect
+  websocket-disconnect: myserverlessproject2-dev-websocket-disconnect
+  websocket-default: myserverlessproject2-dev-websocket-default
+  websocket-message: myserverlessproject2-dev-websocket-message
+layers:
+  None
